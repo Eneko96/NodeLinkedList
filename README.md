@@ -1,4 +1,8 @@
-```sh
+# Linked List
+
+## Example of usage
+
+```js
 const main = () => {
   const linkedList = new LinkedList();
   // mega big list
