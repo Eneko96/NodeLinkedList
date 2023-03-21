@@ -1,0 +1,21 @@
+{
+  "name": "@eneko96/linkedlist",
+  "version": "1.0.0",
+  "private": false,
+  "description": "linked list for node",
+  "module": "dist/mjs/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.0"
+  }
+}
